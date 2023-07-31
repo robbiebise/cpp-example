@@ -1,0 +1,67 @@
+Plugins:
+Bundled analyzers:
+  - Clean as You Code 2.0.0.334 (cayc)
+  - IaC Code Quality and Security 1.17.0.3976 (iac)
+  - PL/SQL Code Quality and Security 3.9.0.5181 (plsql)
+  - Scala Code Quality and Security 1.13.0.4374 (sonarscala)
+  - C# Code Quality and Security 9.3.0.71466 (csharp)
+  - Vulnerability Analysis 10.1.0.21056 (security)
+  - Java Code Quality and Security 7.20.0.31692 (java)
+  - HTML Code Quality and Security 3.8.0.3510 (web)
+  - Flex Code Quality and Security 2.9.0.3375 (flex)
+  - XML Code Quality and Security 2.8.1.4006 (xml)
+  - Text Code Quality and Security 2.1.0.1163 (text)
+  - VB.NET Code Quality and Security 9.3.0.71466 (vbnet)
+  - Swift Code Quality and Security 4.9.0.5915 (swift)
+  - CFamily Code Quality and Security 6.45.0.62016 (cpp)
+  - Python Code Quality and Security 4.3.0.11660 (python)
+  - Dataflow Bug Detection Rules for Python 1.16.0.4300 (dbdpythonfrontend)
+  - Dataflow Bug Detection 1.16.0.4300 (dbd)
+  - Go Code Quality and Security 1.13.0.4374 (go)
+  - JaCoCo 1.3.0.1538 (jacoco)
+  - Kotlin Code Quality and Security 2.15.0.2579 (kotlin)
+  - RPG Code Quality 3.4.0.3394 (rpg)
+  - Dataflow Bug Detection Rules for Java 1.16.0.4300 (dbdjavafrontend)
+  - PL/I Code Quality and Security 1.13.0.3651 (pli)
+  - T-SQL Code Quality and Security 1.9.0.5692 (tsql)
+  - VB6 Code Quality and Security 2.10.0.3598 (vb)
+  - Apex Code Quality and Security 1.13.0.4374 (sonarapex)
+  - JavaScript/TypeScript/CSS Code Quality and Security 10.3.1.21905 (javascript)
+  - Ruby Code Quality and Security 1.13.0.4374 (ruby)
+  - Vulnerability Rules for C# 10.1.0.21056 (securitycsharpfrontend)
+  - Vulnerability Rules for Java 10.1.0.21056 (securityjavafrontend)
+  - Vulnerability Rules for JS 10.1.0.21056 (securityjsfrontend)
+  - COBOL Code Quality 5.3.0.6122 (cobol)
+  - Vulnerability Rules for Python 10.1.0.21056 (securitypythonfrontend)
+  - PHP Code Quality and Security 3.30.0.9766 (php)
+  - ABAP Code Quality and Security 3.12.0.4303 (abap)
+  - Configuration detection fot Code Quality and Security 1.2.0.267 (config)
+  - Vulnerability Rules for PHP 10.1.0.21056 (securityphpfrontend)
+Global server settings:
+  - sonar.auth.github.appId=335324
+  - sonar.auth.github.enabled=true
+  - sonar.auth.github.groupsSync=true
+  - sonar.auth.github.organizations=Test-Organization-Three,Test-Organization-Two
+  - sonar.cobol.file.suffixes=.cbl
+  - sonar.core.id=F24951B4-AYSCJNARIhemOO_0Ia2x
+  - sonar.core.startTime=2023-07-31T19:27:09+0000
+  - sonar.dbcleaner.daysBeforeDeletingInactiveBranchesAndPRs=10000
+  - sonar.dbcleaner.weeksBeforeDeletingAllSnapshots=8000
+  - sonar.forceAuthentication=true
+  - sonar.governance.report.project.branch.frequency=Daily
+  - sonar.governance.report.view.frequency=Daily
+  - sonar.governance.report.view.recipients=theil.bise@sonarsource.com
+  - sonar.plugins.risk.consent=ACCEPTED
+Project server settings:
+Project scanner properties:
+  - sonar.cfamily.compile-commands=build/compile_commands.json
+  - sonar.host.url=http://localhost:9000
+  - sonar.projectBaseDir=/Users/theil.bise/repos/test-scanner/cfam/macos-cmake-compdb-gh-actions-sq
+  - sonar.projectKey=sonarsource-cfamily-examples_macos-cmake-compdb-gh-actions-sq_AYCKCNO5nBwJQJjdVHcK
+  - sonar.projectVersion=1.0
+  - sonar.scanner.app=ScannerCLI
+  - sonar.scanner.appVersion=4.8.0.2856
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=src
+  - sonar.verbose=true
+  - sonar.working.directory=/Users/theil.bise/repos/test-scanner/cfam/macos-cmake-compdb-gh-actions-sq/.scannerwork
