@@ -2,5 +2,5 @@ projectKey=sonarsource-cfamily-examples_macos-cmake-compdb-gh-actions-sq_AYCKCNO
 serverUrl=http://localhost:9000
 serverVersion=10.1.0.73491
 dashboardUrl=http://localhost:9000/dashboard?id=sonarsource-cfamily-examples_macos-cmake-compdb-gh-actions-sq_AYCKCNO5nBwJQJjdVHcK
-ceTaskId=AYmtcHWhjCEIlEMc5kTE
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AYmtcHWhjCEIlEMc5kTE
+ceTaskId=AYmt3eoljCEIlEMc5kUw
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYmt3eoljCEIlEMc5kUw

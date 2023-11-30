@@ -20,6 +20,21 @@ int main(int argc, char* argv[]) {
       break;
   }
 
+    switch(argc)
+  {
+    case 0:
+    {
+      return argc;
+    }
+    case 1: 
+    {
+      return argc + 1;
+    }
+    default:
+      return 5;
+      break;
+  }
+
   if (num == 0) {
     cout << "No arguments provided\n";
   } else if (num == 0) { // intentional mistake

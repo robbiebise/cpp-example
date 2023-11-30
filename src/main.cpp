@@ -20,6 +20,38 @@ int main(int argc, char* argv[]) {
       break;
   }
 
+  struct Aggregate {
+    int i;
+    float f;
+  };
+  
+  float plus_one(struct *Aggregate);
+  
+  void aggregates() {
+    Aggregate aggr = {
+        .i = 1336
+    }; // member agrr.f is not initialized
+  
+    // A pointer to aggr is given to a function which uses the 'f' member, however,
+    // it hasn't been initialized at this point.
+    float important_value = plus_one(&aggr);
+  }
+
+  // -----------------------------------------------------------------------------
+  // Imaginary translation unit boundary
+  // -----------------------------------------------------------------------------
+
+  struct Aggregate {
+    int i;
+    float f;
+  };
+
+  float plus_one(struct *Aggregate aggr) {
+
+    return aggr->f + 1;
+
+  }
+
   if (num == 0) {
     cout << "No arguments provided\n";
   } else if (num == 0) { // intentional mistake
