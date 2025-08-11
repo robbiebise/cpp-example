@@ -31,7 +31,7 @@ int main(int argc, char* argv[]) {
     Aggregate aggr = {
         .i = 1336
     }; // member agrr.f is not initialized
-    cout << "This is develop " << aggr.i << endl;
+    cout << "This is develop! " << aggr.i << endl;
     // A pointer to aggr is given to a function which uses the 'f' member, however,
     // it hasn't been initialized at this point.
     float important_value = plus_one(&aggr);
